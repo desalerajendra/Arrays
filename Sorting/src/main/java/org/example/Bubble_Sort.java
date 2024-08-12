@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Bubble_Sort {
     public static void main(String[] args) {
-        System.out.println("Enter Length of Array");
+        System.out.println("Enter Length of Array = ");
         Scanner sc = new Scanner(System.in);
         int L = sc.nextInt();
-        System.out.println("Enter Array Elements");
+        System.out.println("Enter Array Elements = ");
         int arr[] = new int[L];
 
         for(int i=0;i<L;i++)
